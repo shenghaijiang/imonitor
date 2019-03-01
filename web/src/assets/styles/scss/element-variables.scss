@@ -1,0 +1,62 @@
+/* 改变主题色变量 */
+$--color-primary: rgb(24, 133, 221);
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
+// @import "styles/index.css";
+
+.vue-treeselect__control {
+    height: 100%
+}
+.el-progress__text {
+    color: #ffffff;
+}
+.el-progress-bar__innerText {
+    color: #303133;
+}
+
+.el-table th, .el-table td {
+    padding: 8px 0;
+}
+.el-table td, .el-table th.is-leaf {
+    border-bottom: 1px solid #cfd5da;
+}
+.el-table th {
+    padding: 5px 0;
+    background-color: #eef1f6;
+}
+.el-table--border td, .el-table--border th {
+    border-right: 1px solid #ced0d6;
+}
+.el-table thead {
+    border-color: rgb(17, 17, 17);
+    color: #4a4b4d;
+    font-weight: 500;
+    background-color: #4a4b4d
+}
+.el-table--group, .el-table--border {
+    border: 1px solid #c8cbd2;
+}
+.el-header {
+    padding: 0 0;
+}
+.sidebar{
+    border-color: #E0E0E0;
+    border-right-width: 1px;
+    border-right-style: solid;
+    background-color: rgb(238, 241, 246);
+}
+.absolute{
+    position: absolute;
+}
+
+.search-box{
+    display: flex;
+    background-color: #eee;
+    margin-bottom: 8px;
+}
+.el-form-item-search {
+    margin-bottom: 0px;
+}

@@ -1,0 +1,5 @@
+create "ResCount","f1"
+create "ResDailyCount","f1"
+create "ResError","f1"
+create "ResLog","f1"
+create "ResLongTime","f1"
